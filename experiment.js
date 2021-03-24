@@ -176,7 +176,7 @@ jsPsych.init({
     timeline: timeline,
     preload_images: images,
     on_close: function() {
-        jsPsych.data.get().ignore("correct").localSave("csv", "PDP_output.csv");
+        jsPsych.data.get().ignore("correct").localSave("csv", "PDP_quitted_output.csv");
     },
     on_data_update: function () {
         let lastTrial = jsPsych.data.get().filter({trial_type: "serial-reaction-time"}).last(1).values()[0];
