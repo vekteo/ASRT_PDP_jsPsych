@@ -54,7 +54,9 @@ const changeInstruction = {
     show_clickable_nav: true,
     on_start: function(){
         sequenceSoFar = "";
-    }
+    },
+    button_label_previous: `${language.button.previous}`,
+    button_label_next: `${language.button.next}`
 };
 
 const end = {
