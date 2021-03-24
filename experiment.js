@@ -44,6 +44,11 @@ const blockEndInstruction = {
     }
 };
 
+const continueTask = {
+    type: "html-keyboard-response",
+    stimulus: `<p>${language.task.continue}</p>`
+};
+
 const changeInstruction = {
     type: "instructions",
     pages: [`<h2 style='color:red'><strong>${language.pdp.attention}</strong></h2><p>${language.pdp.change}</p>` +
@@ -159,7 +164,7 @@ for (let i = 1; i < 5; i++) {
     timeline.push(newTrial)
     }
     if (i !== 4){
-        timeline.push(blockEndInstruction)
+        timeline.push(blockEndInstruction, continueTask)
     }    
 }
 
