@@ -151,12 +151,11 @@ for (let i = 1; i < 5; i++) {
     timeline.push(newTrial)
     }
     if (i !== 4){
-        timeline.push(blockEndInstruction)
+        timeline.push(blockEndInstruction, continueTask)
     }    
 }
 
-timeline.push(changeInstruction)
-timeline.push(startInstruction)
+timeline.push(changeInstruction, startInstruction)
 
 for (let i = 1; i < 5; i++) {
     timeline.push(initialTrialTimeline)
