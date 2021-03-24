@@ -25,7 +25,7 @@ Each part consist of 4 blocks. Each block is terminated after 24 valid button pr
 - <strong>task_type:</strong> the type of the task ('inclusion', 'exclusion')
 
 <h2>Setting options</h2>
-<p>The language of the task can be set in the <i>parameters.js</i> file. Available languages: english (en), hungarian (hu)</p>
+<p>The language of the task can be set in the <i>parameters.js</i> file. Available languages: english (en), hungarian (hu), french (fr), portuguese (pt)</p>
 
 <h2>Browser requirements</h2>
 <p>Any browser except Safari and Internet Explorer. Recommended: Chrome</p>
