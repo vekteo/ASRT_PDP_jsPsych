@@ -168,10 +168,7 @@ for (let i = 1; i < 5; i++) {
 }
 
 timeline.push(end)
-
 timeline.push({type: "fullscreen", fullscreen_mode: false})
-
-
 
 /*************** EXPERIMENT START AND DATA UPDATE ***************/
 
