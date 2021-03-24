@@ -1,1 +1,1 @@
-const language = en;
+const language = en; //available languages: english (en), hungarian (hu), french (fr), portuguese (pt)
