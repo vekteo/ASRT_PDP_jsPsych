@@ -6,7 +6,7 @@ The task consists of two main parts. In the first part, users have to try to typ
 Each part consist of 4 blocks. Each block is terminated after 24 valid button presses (the 25. button press quits the block).
 
 <h2>Output variables</h2>
-
+- <strong>browser_events:</strong> browser events at the given trial (fullscreenenter, fullscreenexit, blur or focus)
 - <strong>view_history:</strong> only relavant at the 'instructions'; the actions and the corresponding RTs when the instruction trials are presented
 - <strong>rt:</strong> reaction time (RT) in ms - it indicates the RT from the previous button press
 - <strong>trial_type:</strong> the JSPSych trial type of the given trial ('instructions', 'html-keyboard-response' or 'serial-reaction-time')
