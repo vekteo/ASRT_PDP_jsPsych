@@ -193,6 +193,13 @@ jsPsych.init({
                 lastTrial.task_type = "inclusion";
             }
         }
+                /*add browser events*/
+
+        let interactionData = jsPsych.data.getInteractionData()
+        const interactionDataOfLastTrial = interactionData.filter({'trial': lastTrial.trial_index}).values();
+        if (interactionDataOfLastTrial) {
+            lastTrial.browser_events = JSON.stringify(interactionDataOfLastTrial)
+        }
       },
       on_finish: function () {
         jsPsych.data.get().ignore("correct").localSave("csv", "PDP_output.csv");
