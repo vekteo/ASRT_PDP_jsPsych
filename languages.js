@@ -142,3 +142,39 @@ const pt = {
         startTyping: "Comece a digitar a sequência!"
     }
 }
+
+const es = {
+    welcomePage: {
+        welcome: "Bienvenid@!",
+        clickNext: "Haz clic en <strong>Siguiente</strong> para continuar."
+    },
+    task: {
+        ready: "Si estás list@, presiona <strong>cualquier</strong> tecla para empezar la tarea!",
+        continue: "Si estás list@, presiona <strong>cualquier</strong> tecla para continuar la tarea!"
+    },
+    end:  {
+        end: "Fin de la tarea.",
+        thankYou: "Gracias!"
+    },
+    button: {
+        next: "Siguiente",
+        previous: "Atrás"
+    },
+    fullscreen: {
+        fullscreenText: "El experimento pasará a pantalla completa al cliquear en Continuar.",
+        fullscreenButton: "Continuar"
+    },
+    pdp: {
+        notRandom: "En la tarea anterior, el orden de aparición de los perros no era completamente aleatorio. Había una secuencia enscondida. Ahora te pediremos de intentar reproducir esa sequencia.",
+        control: "En esta tarea, podrás controlar el orden de aparición de los perros. Si utilisas las teclas (S, F, J, o L), el perro aparecerá en la posición correspondiente a la tecla.",
+        reproduce: "Intenta de reproducir el orden en el que viste aparecer a los perros en la tarea anterior! No te preocupes si no sabes en orden exacto, es completamente normal. Intenta ayudarte de tu propia intuición!",
+        clear: "Si has entendido las instrucciones, haz clic en <strong>Siguiente</strong>!",
+        endBlock: "Fin del bloque.",
+        taskSame: "Tu tarea sigue siendo la misma.",
+        continue: "Haz clic en cualquier tecla para continuar!",
+        attention: "CUIDADO!",
+        change: "Ahora tu tarea será un poco diferente. Deberás producir una secuencia que <strong>NO apareció</strong> en la tarea anterior.",
+        allResponseKeys: "Por favor utiliza todas las teclas (S, F, J, y L), e intenta de evitar las repeticiones (por ejemplo: S-D-S-D-S-D-S-D, S-D-J-L-S-D-J-L)",
+        startTyping: "Puedes comenzar a digitar la secuencia!"
+    }
+}
