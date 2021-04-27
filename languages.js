@@ -9,7 +9,7 @@ const en = {
     },
     end:  {
         end: "End of the task.",
-        thankYou: "Thank you for participating!"
+        thankYou: "Thank you!"
     },
     button: {
         next: "Next",
@@ -46,7 +46,7 @@ const hu = {
     },
     end:  {
         end: "Vége a feladatnak!",
-        thankYou: "Köszönjük a részvételt!"
+        thankYou: "Köszönjük!"
     },
     button: {
         next: "Tovább",
@@ -82,7 +82,7 @@ const fr = {
     },
     end:  {
         end: "Fin de la tâche.",
-        thankYou: "Merci de votre participation!"
+        thankYou: "Merci!"
     },
     button: {
         next: "Suivant",
@@ -118,7 +118,7 @@ const pt = {
     },
     end:  {
         end: "Fim da tarefa.",
-        thankYou: "Muito obrigado pela sua participação!"
+        thankYou: "Muito obrigado!"
     },
     button: {
         next: "Próximo",
