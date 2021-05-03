@@ -31,7 +31,17 @@ const en = {
         change: "Now your task will change a little. We will ask you to produce a sequence that <strong>did not appear</strong> in the previous task.",
         allResponseKeys: "Please use all response keys, and try to avoid repetitions (e.g., SDSDSDSD, SDFJKLSDFJKL)",
         startTyping: "Start typing the sequence!"
-    }
+    },
+    parameters: {
+        subject: "Subject Number:",
+        session: "Session Number:"
+    },
+    startWarning: {
+        startSubject: "You are about to start the task with<strong> Subject Number ",
+        startSession: "</strong> and <strong>Session Number ",
+        startButton: "Start the task!",
+        goBackButton: "Change the parameters"
+    },
 }
 
 
@@ -68,7 +78,17 @@ const hu = {
         change: "Most a feladatod kissé megváltozik. Mostantól arra kérünk, próbálj meg lejátszani egy olyan sorrendet, amelyben <strong>biztos, hogy nem jelentek meg a kutyák </strong> az előző feladatban.",
         allResponseKeys: "Kérlek, használd az összes válaszgombot, és próbáld meg elkerülni az ismétlődéseket (pl. SDSDSDSD, SDFJKLSDFJKL)!",
         startTyping: "Kezdd el gépelni a szekvenciát!"
-    }
+    },
+    parameters: {
+        subject: "Vizsgálati személy száma: ",
+        session: "Ülés száma: "
+    },
+    startWarning: {
+        startSubject: "Feladat kezdése <strong> ezzel a vizsgálati személy számmal: ",
+        startSession: "</strong> és <strong>ezzel az ülésszámmal: ",
+        startButton: "Feladat kezdése",
+        goBackButton: "Paraméterek változtatása"
+    },
 }
 
 const fr = {
@@ -104,7 +124,17 @@ const fr = {
         change: "Maintenant, votre tâche va changer un peu. Nous allons vous demander de produire une séquence qui <strong>n'apparaissait pas</strong> dans la tâche précédente.",
         allResponseKeys: "Veuillez utiliser toutes les touches pour répondre et essayer d'éviter les répétitions (par exemple, SDSDSDSD, SDFJKLSDFJKL).",
         startTyping: "Commencez à taper la séquence !"
-    }
+    },
+    parameters: {
+        subject: "Numéro du sujet : ",
+        session: "Numéro de session : "
+    },
+    startWarning: {
+        startSubject: "Vous êtes sur le point de commencer la tâche avec <strong>Numéro de sujet ",
+        startSession: "</strong> et <strong>Numéro de session ",
+        startButton: "Commencez la tâche !",
+        goBackButton: "Modifier les paramètres"
+    },
 }
 
 const pt = {
@@ -140,7 +170,17 @@ const pt = {
         change: "Agora a sua tarefa vai mudar um pouco. Vamos te pedir para produzir uma sequência que <strong>não apareceu</strong> na tarefa anterior.",
         allResponseKeys: "Utilize por favor todas as teclas de resposta, e tente evitar repetições (ex. SDSDSDSD, SDFJKLSDFJKL).",
         startTyping: "Comece a digitar a sequência!"
-    }
+    },
+    parameters: {
+        subject: "Assunto número: ",
+        session: "Número da sessão: "
+    },
+    startWarning: {
+        startSubject: "Você está prestes a iniciar a tarefa com<strong> Número do assuntot ",
+        startSession: "</strong> e <strong>Sessão número ",
+        startButton: "Comece a tarefa!",
+        goBackButton: "Alterar os parâmetros"
+    },
 }
 
 const es = {
@@ -176,5 +216,15 @@ const es = {
         change: "Ahora tu tarea será un poco diferente. Deberás producir una secuencia que <strong>NO apareció</strong> en la tarea anterior.",
         allResponseKeys: "Por favor utiliza todas las teclas (S, F, J, y L), e intenta de evitar las repeticiones (por ejemplo: S-D-S-D-S-D-S-D, S-D-J-L-S-D-J-L)",
         startTyping: "Puedes comenzar a digitar la secuencia!"
-    }
+    },
+    parameters: {
+        subject: "Número de asunto: ",
+        session: "Número de sesión: "
+    },
+    startWarning: {
+        startSubject: "Está a punto de iniciar la tarea con <strong>Número de Asunto ",
+        startSession: "</strong> y <strong>Número de Sesión ",
+        startButton: "¡Inicia la tarea!",
+        goBackButton: "Cambiar los parámetros"
+    },
 }
