@@ -102,7 +102,7 @@ const trial = {
     data: jsPsych.timelineVariable('data'),
     response_ends_trial: true,
     pre_target_duration: 120,
-    target_color: "url(static/images/dalmata.jpg)",
+    target_color: "url(../static/images/dalmata.jpg)",
     on_start: function (trial){
         let keyPress = jsPsych.data.get().last(1).values()[0].key_press;
         if(jsPsych.data.get().last(1).values()[0].trial_number === 23){
@@ -193,12 +193,15 @@ jsPsych.init({
                 lastTrial.task_type = "inclusion";
             }
         }
-                /*add browser events*/
+
+        /*add browser events*/
 
         let interactionData = jsPsych.data.getInteractionData()
-        const interactionDataOfLastTrial = interactionData.filter({'trial': lastTrial.trial_index}).values();
-        if (interactionDataOfLastTrial) {
-            lastTrial.browser_events = JSON.stringify(interactionDataOfLastTrial)
+        if (lastTrial) {
+            const interactionDataOfLastTrial = interactionData.filter({'trial': lastTrial.trial_index}).values();
+            if (interactionDataOfLastTrial) {
+                lastTrial.browser_events = JSON.stringify(interactionDataOfLastTrial)
+            }
         }
       },
       on_finish: function () {
