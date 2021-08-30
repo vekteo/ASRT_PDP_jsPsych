@@ -1,4 +1,7 @@
 # ASRT_PDP_jsPsych
+
+<i>Created by the MEMO Team of Lyon Neuroscience Research Center (CRNL) (PI: Dezso Nemeth)</i>
+
 A Process Dissociation Procedures Task for the <a href="https://github.com/vekteo/ASRT_JSPsych">ASRT paradigm</a> created with the jsPSych library (<a href="https://link.springer.com/article/10.3758/s13428-014-0458-y">de Leeuw, J. R., 2015</a>).
 
 The task consists of two main parts. In the first part, users have to try to type in the sequence they saw in the ASRT task. In the second part, they have to type in a sequence they did not see during the ASRT task. Now, the appearance of the dogs are controlled by the users. The response keys are the same as in the main task, and the dogs appear according to the button presses.
