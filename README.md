@@ -6,9 +6,9 @@
 
 A Process Dissociation Procedures Task for the <a href="https://github.com/vekteo/ASRT_JSPsych">ASRT paradigm</a> created with the jsPSych library (<a href="https://link.springer.com/article/10.3758/s13428-014-0458-y">de Leeuw, J. R., 2015</a>).
 
-The task consists of two main parts. In the first part, users have to try to type in the sequence they saw in the ASRT task. In the second part, they have to type in a sequence they did not see during the ASRT task. Now, the appearance of the dogs are controlled by the users. The response keys are the same as in the main task, and the dogs appear according to the button presses.
+The task consists of two main parts. In the first part, users are asked to try to type the sequence they see in the ASRT task. In the second part, they are asked to enter a sequence that they did not see in the ASRT task. Now the appearance of the stimuli is controlled by the users. The response buttons are the same as in the main task and the stimuli are displayed according to the keypresses.
 
-Each part consist of 4 blocks. Each block is terminated after 24 valid button presses (the 25. button press quits the block).
+Each section consists of 4 blocks. Each block is completed after 24 valid keypresses (the 25th keypress exits the block).
 
 <h2>Output variables</h2>
 <li><strong>browser_events:</strong> browser events at the given trial (fullscreenenter, fullscreenexit, blur or focus)</li>
