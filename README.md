@@ -39,3 +39,6 @@ Open the <i>index.html</i> file in either the <i>offline</i> or <i>online</i> fo
 
 <h2>Browser requirements</h2>
 <p>Any browser except Safari and Internet Explorer. Recommended: Chrome</p>
+
+<h2>Analysis</h2>
+To analyze the data, use the PDP_analysis notebook. With the help of the notebook, you can calculate the proprotion of high probability triplets separetely in the inclusion vs. exclusion conditions.
