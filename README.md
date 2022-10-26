@@ -8,7 +8,7 @@
 If you use the script, please include this citation in your manuscript:
 
 Vékony, T. (2021). ASRT Process Dissociation Procedures Task created with jsPsych (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.7124730
-<a href="https://zenodo.org/badge/latestdoi/346040002"><img src="https://zenodo.org/badge/346040002.svg" alt="DOI"></a>
+<a href="https://doi.org/10.5281/zenodo.7253644"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7253644.svg" alt="DOI"></a>
 
 <h2>About the task</h2>
 
