@@ -10,6 +10,8 @@ If you use the script, please include this citation in your manuscript:
 Vékony, T. (2021). ASRT Process Dissociation Procedures Task created with jsPsych (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.7124730
 <a href="https://zenodo.org/badge/latestdoi/346040002"><img src="https://zenodo.org/badge/346040002.svg" alt="DOI"></a>
 
+<h2>About the task</h2>
+
 A Process Dissociation Procedures Task for the <a href="https://github.com/vekteo/ASRT_JSPsych">ASRT paradigm</a> created with the jsPSych library (<a href="https://link.springer.com/article/10.3758/s13428-014-0458-y">de Leeuw, J. R., 2015</a>).
 
 The task consists of two main parts. In the first part, users are asked to try to type the sequence they see in the ASRT task. In the second part, they are asked to enter a sequence that they did not see in the ASRT task. Now the appearance of the stimuli is controlled by the users. The response buttons are the same as in the main task and the stimuli are displayed according to the keypresses.
