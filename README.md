@@ -1,4 +1,4 @@
-# ASRT_PDP_jsPsych
+# ASRT Process Dissocation Procedures (PDP) Task
 
 <i>Created by the MEMO Team of Lyon Neuroscience Research Center (CRNL) (PI: Dezso Nemeth)</i>
 
